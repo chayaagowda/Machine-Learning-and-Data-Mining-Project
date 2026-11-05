@@ -1,0 +1,5 @@
+who,exp,model,handling,accuracy,recall,precision,f1,f2,pr_auc,roc_auc,TP,FP,FN,TN,cost_10to1
+A,E1,Dummy (always normal),none,0.9983,0.0,0.0,0.0,0.0,0.0017,0.5,0,0,98,56864,980
+A,E1,Logistic regression,none,0.9992,0.6429,0.8289,0.7241,0.6731,0.7432,0.9559,63,13,35,56851,363
+A,E1,Decision tree (depth 8),none,0.9994,0.7449,0.8795,0.8066,0.7684,0.6409,0.8198,73,10,25,56854,260
+A,E1,"Naive Bayes (10 bins, alpha=1)",none,0.9945,0.8469,0.219,0.348,0.5383,0.6194,0.9644,83,296,15,56568,446
