@@ -1,0 +1,17 @@
+model,handling,best_parameters,cv_average_precision,cv_fold_std,seed
+KNN,none,"{""clf__n_neighbors"": 7}",0.7991598691129898,0.057044975417314896,42
+Logistic regression,oversampling 1:1,"{""clf__C"": 0.01}",0.7548062543392678,0.02521528406115464,42
+Logistic regression,none,"{""clf__C"": 1.0}",0.7547788687285465,0.03086993258278176,42
+Decision tree,none,"{""clf__max_depth"": 5}",0.7460183607708898,0.03866692435042409,42
+Logistic regression,undersampling 1:10,"{""clf__C"": 10.0}",0.735223258560086,0.020153767590237095,42
+KNN,oversampling 1:1,"{""clf__n_neighbors"": 7}",0.7279195565556711,0.03990302458306241,42
+Logistic regression,undersampling 1:1,"{""clf__C"": 0.01}",0.6807744215570415,0.02697981415555081,42
+Naive Bayes,oversampling 1:1,"{""clf__alpha"": 5.0}",0.6700580505850257,0.03689369332685926,42
+Naive Bayes,undersampling 1:1,"{""clf__alpha"": 0.1}",0.6654162646414438,0.03397395978284593,42
+Naive Bayes,undersampling 1:10,"{""clf__alpha"": 0.1}",0.6565309513499991,0.03907890723777322,42
+Naive Bayes,none,"{""clf__alpha"": 5.0}",0.6555764892756507,0.03965583454540043,42
+KNN,undersampling 1:10,"{""clf__n_neighbors"": 7}",0.6555058947914818,0.053426535400542145,42
+Decision tree,oversampling 1:1,"{""clf__max_depth"": 12}",0.5268926603581351,0.05971129888645452,42
+KNN,undersampling 1:1,"{""clf__n_neighbors"": 7}",0.44328983956485707,0.10744016613969938,42
+Decision tree,undersampling 1:10,"{""clf__max_depth"": 3}",0.3969670049436117,0.027161702110103887,42
+Decision tree,undersampling 1:1,"{""clf__max_depth"": 3}",0.08648181594351437,0.051489958518283765,42

@@ -1,0 +1,7 @@
+{
+  "KNN | none": 0.2857142857142857,
+  "Logistic regression | none": 0.021371984451213154,
+  "Logistic regression | undersampling 1:1": 0.7731457854561039,
+  "Logistic regression | undersampling 1:10": 0.968935588555174,
+  "Logistic regression | oversampling 1:1": 0.999142612408385
+}
